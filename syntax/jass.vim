@@ -150,7 +150,7 @@ endif
 
 """""""""""""""""""""""""""""""""""""""""""""""""""
 syn keyword jassType agent hashtable integer string real boolean code handle unit timer group trigger player rect location ability aidifficulty alliancetype attacktype blendmode boolexpr buff button camerafield camerasetup conditionfunc damagetype defeatcondition destructable dialog dialogevent effect effectype event eventid fgamestate filterfunc fogmodifier fogstate force gamecache gamedifficulty gameevent gamespeed gamestate gametype igamestate image item itempool itemtype leaderboard lightning limitop mapcontrol mapdensity mapflag mapsetting mapvisibility multiboard multiboarditem pathingtype placement playercolor playerevent playergameresult playerslotstate playerscore playerstate playerunitevent quest questitem race racepreference raritycontrol rect region sound soundtype startlocprio terraindeformation texmapflags texttag timerdialog trackable triggeraction triggercondition ubersplat unitevent unitpool unitstate unittype version volumegroup weapontype weathereffect effecttype widget widgetevent nothing array key
-if exists("jass_cj_keyword") && if jass_cj_keyword < 1
+if exists("jass_cj_keyword") && jass_cj_keyword < 1
     finish
 endif
 
