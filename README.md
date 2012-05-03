@@ -4,8 +4,8 @@
 
     zinc/lua support included.
 
-    set 'jass_cj_keyword' to 0 to disable cj keyword.
-    set 'jass_bj_keyword' to 0 to disable bj keyword.
+    let jass_cj_keyword = 0 to disable cj and bj keyword.
+    let jass_bj_keyword = 0 to disable bj keyword.
 
 
 
